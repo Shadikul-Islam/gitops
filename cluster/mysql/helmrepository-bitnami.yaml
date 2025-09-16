@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   type: oci
-  url: oci://registry-1.docker.io/bitnamicharts/
+  url: oci://registry-1.docker.io/bitnamicharts
   interval: 1m
   secretRef:
     name: dockerhub-cred
