@@ -1,13 +1,10 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: metallb-config
+  name: metallb
   namespace: flux-system
 spec:
   interval: 1m
   path: "./cluster/metallb"
   prune: true
-  resources:
-    - metallb-config.yaml
-  validation: client
   wait: true
