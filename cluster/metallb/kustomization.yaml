@@ -11,6 +11,4 @@ name: flux-system
 path: "./cluster/metallb"
 prune: true
 validation: client
-dependsOn:
-- name: metallb-upstream
 wait: true
