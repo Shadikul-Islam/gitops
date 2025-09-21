@@ -1,10 +1,10 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: mysql-oci
-  namespace: mysql-ns
+  name: mysql
+  namespace: mysql
 spec:
-  releaseName: mysql-oci
+  releaseName: mysql
   chart:
     spec:
       chart: mysql
