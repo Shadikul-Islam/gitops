@@ -17,8 +17,6 @@ spec:
   values:
     auth:
       existingSecret: mysql-auth
-      username: wp_user
-      database: wordpress
     primary:
       persistence:
         enabled: false 
